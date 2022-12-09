@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/main_linearlayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -49,13 +50,14 @@
             android:background="@null"
             android:textStyle="bold"
             android:textSize="25sp"/>
+
         <TextView
             android:id="@+id/textMonth"
-            android:layout_width = "0dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:textAlignment="center"
             android:text="Feb 2022"
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp" />
         <Button
@@ -147,311 +149,47 @@
     <!-- вторая неделя -->
     <LinearLayout
         android:layout_width="390dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40sp"
         android:orientation="horizontal"
-        android:layout_marginLeft="10sp">
-        <TextView
-            android:id="@+id/day_8"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_9"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_10"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_11"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_12"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_13"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_14"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
+        android:layout_marginLeft="10sp"
+        android:id="@+id/lay_2">
+
     </LinearLayout>
     <!-- третья неделя -->
     <LinearLayout
         android:layout_width="390dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40sp"
         android:orientation="horizontal"
-        android:layout_marginLeft="10sp">
-        <TextView
-            android:id="@+id/day_15"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_16"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_17"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_18"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_19"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_20"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_21"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
+        android:layout_marginLeft="10sp"
+        android:id="@+id/lay_3">
+
     </LinearLayout>
     <!-- четвертая неделя -->
     <LinearLayout
         android:layout_width="390dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40sp"
         android:orientation="horizontal"
-        android:layout_marginLeft="10sp">
-        <TextView
-            android:id="@+id/day_22"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_23"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_24"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_25"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_26"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_27"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
+        android:layout_marginLeft="10sp"
+        android:id="@+id/lay_4">
 
-        <TextView
-            android:id="@+id/day_28"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="1"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
     </LinearLayout>
     <!-- пятая неделя -->
     <LinearLayout
         android:layout_width="390dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40sp"
         android:orientation="horizontal"
-        android:layout_marginLeft="10sp">
-        <TextView
-            android:id="@+id/day_29"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_30"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_31"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_32"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_33"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_34"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
-        <TextView
-            android:id="@+id/day_35"
-            android:layout_width="0dp"
-            android:layout_height="40sp"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:text="1"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="20sp"/>
+        android:layout_marginLeft="10sp"
+        android:id="@+id/lay_5">
+
+    </LinearLayout>
+    <!-- пятая неделя -->
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="40sp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/lay_6">
+
     </LinearLayout>
 
 </LinearLayout>
