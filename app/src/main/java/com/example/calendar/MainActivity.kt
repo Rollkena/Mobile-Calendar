@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 count = 1
                 var firstDay: Int
                 var c = Calendar.getInstance()
-                today = c.get(Calendar.DATE) + 1
+                today = c.get(Calendar.DATE)
                 c.add(Calendar.MONTH, newMonth)
                 textMonth.text = "${c.get(Calendar.MONTH) + 1}.${c.get(Calendar.YEAR)}"
                 c[Calendar.DAY_OF_MONTH] = 1
